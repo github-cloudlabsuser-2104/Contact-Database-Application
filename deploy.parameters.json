@@ -2,14 +2,14 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "appName": {
-            "value": "<Your App Name>"
+        "webAppName": {
+            "value": "manish-web-app"
         },
-        "sqlServerName": {
-            "value": "<Your SQL Server Name>"
+        "hostingPlanName": {
+            "value": "P1v2"
         },
-        "sqlDatabaseName": {
-            "value": "<Your SQL Database Name>"
+        "location": {
+            "value": "West Europe"
         }
     }
 }
